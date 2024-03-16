@@ -14,6 +14,7 @@
     <div id="textBox">
         <h1>Traktorid</h1>
         <p>Traktoriga sõit on ajavõit. Mina olen väga hea traktorist. Traktoriga sõita on nii lõbus!</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif">
     </div>
     <img id="photo" src="https://osta.img-bcg.eu/item/13/1746/67601746.jpg">
 </div>
@@ -45,6 +46,16 @@
     </div>
 </div>
 
+<button id="powerfulbutton">I am a very powerful button!</button>
+
+<script>
+document.getElementById("powerfulbutton")
+.addEventListener("click", function() {
+    document.querySelectorAll("*").forEach(el =>
+        el.style.background = "MidnightBlue")
+})
+</script>
+
 <!-- Video -->
 
 <div class="container" style="flex-flow: column">
@@ -67,6 +78,8 @@
             } else {
                 x.style.display = "none";
             }
+
+            alert("You've been Rick Rolled!!");
         }
     </script>
 
