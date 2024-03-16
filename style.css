@@ -5,11 +5,18 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    color: fuchsia;
+    background-color: yellow;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
     max-width: 25em;
     max-height: 30em;
+    border-radius: 50% 50% 50% 0;
 }
 /* .-ga viitame elemenditele, millel on selline class */
 .container {
